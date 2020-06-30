@@ -1,0 +1,33 @@
+body {
+  background-color: #C5CFC6;
+  color: #696969;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #9D9D93;
+}
+
+table {
+  padding: 15px;
+  text-align: left;
+}
+
+h1 {
+  color: #474843;
+}
+
+h3 {
+  color: #474843;
+}
+
+a {
+  color: #F8EDD1;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #D88A8A;
+}
