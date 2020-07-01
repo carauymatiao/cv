@@ -4,16 +4,22 @@ body {
 }
 
 hr {
-  width: 5%;
+  border-color: #9D9D93;
   border-style: dotted none none none;
   border-width: 7px;
-  border-color: #9D9D93;
+  width: 5%;
 }
 
 table {
   padding: 15px;
   text-align: left;
 }
+
+img {
+  border-radius: 100%;
+}
+
+/* Text */
 
 h1 {
   color: #474843;
