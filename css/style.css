@@ -1,49 +1,141 @@
 body {
-  background-color: #625B63;
-  color: #FDFCF8;
-}
-
-/* Sections */
-
-div {
-  padding: 10px;
-}
-
-.top-container {
-  width: 1720px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
 }
 
 hr {
-  border-color: #A88291;
-  border-style: dotted none none none;
-  border-width: 7px;
   width: 5%;
+  border-color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 10px;
+  margin: 100px auto;
 }
 
-img {
+/* ---------- Containers ----------  */
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  position: relative;
+  padding: 50px 0 50px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 50px 0 100px 0;
+  margin-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.25;
+}
+
+/* ---------- Images ----------  */
+
+.circle {
   border-radius: 100%;
 }
 
-td {
-  padding: 5px;
-  text-align: left;
+.top-cloud {
+  position: absolute;
+  right: 350px;
 }
 
-/* Text */
-
-h1 {
-  color: #FFE3F2;
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
 }
 
-h3 {
-  color: #FFE3F2;
+.woman-image {
+  width: 12%;
 }
 
-a {
-  color: #BDB4CF;
+.graphic-design-image {
+  width: 15%;
+  float: left;
+  padding-right: 30px;
+}
+
+.diary-image {
+  width: 15%;
+  float: right;
+  padding-left: 30px;
+}
+
+.contact-me-button {
+  display: block;
+  width: 180px;
+  background-color: #11999E;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 50px auto 0 auto;
+  color: #EAF6F6;
+  font-weight: bold;
+  text-align: center;
   text-decoration: none;
 }
 
-a:hover {
-  background: #A88291;
+.contact-me-button:hover {
+  background-color: #EAF6F6;
+  color: #11999E;
+}
+
+/* ---------- Text ----------  */
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+}
+
+a {
+  color: #11999E;
+  font-weight: bold;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.cara {
+  color: #11999E;
+}
+
+.subtitle {
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+.graphic-text {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 2.2rem;
+  text-decoration: underline;
+}
+
+.profile-text {
+  color: #40514E;
+}
+
+.footer-text {
+  color: #EAF6F6;
 }
